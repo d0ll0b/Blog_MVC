@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HomeWork\\Blog_MVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B9111DE-5361-4232-A9B4-81162F581404}|Blog_MVC\\Blog_MVC.csproj|d:\\homework\\blog_mvc\\blog_mvc\\views\\blog\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B9111DE-5361-4232-A9B4-81162F581404}|Blog_MVC\\Blog_MVC.csproj|solutionrelative:blog_mvc\\views\\blog\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B9111DE-5361-4232-A9B4-81162F581404}|Blog_MVC\\Blog_MVC.csproj|d:\\homework\\blog_mvc\\blog_mvc\\data\\blogcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B9111DE-5361-4232-A9B4-81162F581404}|Blog_MVC\\Blog_MVC.csproj|solutionrelative:blog_mvc\\data\\blogcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Blog.cshtml",
+              "DocumentMoniker": "D:\\HomeWork\\Blog_MVC\\Blog_MVC\\Views\\Blog\\Blog.cshtml",
+              "RelativeDocumentMoniker": "Blog_MVC\\Views\\Blog\\Blog.cshtml",
+              "ToolTip": "D:\\HomeWork\\Blog_MVC\\Blog_MVC\\Views\\Blog\\Blog.cshtml",
+              "RelativeToolTip": "Blog_MVC\\Views\\Blog\\Blog.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T08:21:24.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BlogContext.cs",
+              "DocumentMoniker": "D:\\HomeWork\\Blog_MVC\\Blog_MVC\\Data\\BlogContext.cs",
+              "RelativeDocumentMoniker": "Blog_MVC\\Data\\BlogContext.cs",
+              "ToolTip": "D:\\HomeWork\\Blog_MVC\\Blog_MVC\\Data\\BlogContext.cs",
+              "RelativeToolTip": "Blog_MVC\\Data\\BlogContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:21:03.296Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
