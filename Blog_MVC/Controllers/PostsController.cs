@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Blog_MVC.Controllers
 {
-    public class BlogController : Controller
+    public class PostsController : Controller
     {
         public IActionResult Index()
         {

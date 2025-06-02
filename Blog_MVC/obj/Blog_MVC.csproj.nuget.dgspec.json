@@ -73,6 +73,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[7.0.10, )"
+            },
+            "Vite.AspNetCore": {
+              "target": "Package",
+              "version": "[2.1.2, )"
             }
           },
           "imports": [

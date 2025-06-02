@@ -4043,6 +4043,30 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "Vite.AspNetCore/2.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Vite.AspNetCore.Abstractions": "1.4.0"
+        },
+        "compile": {
+          "lib/net6.0/Vite.AspNetCore.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Vite.AspNetCore.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Vite.AspNetCore.Abstractions/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Vite.AspNetCore.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Vite.AspNetCore.Abstractions.dll": {}
+        }
       }
     }
   },
@@ -11522,6 +11546,35 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Vite.AspNetCore/2.1.2": {
+      "sha512": "mVPsD5hK6coOaJFB64ElCCF8znc/bL2yrxfzCR7Ts+K+7fPhBqzHvlPUF7+SmOcg6nkh7gW+Nx4GuMbmWF0zyg==",
+      "type": "package",
+      "path": "vite.aspnetcore/2.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "lib/net6.0/Vite.AspNetCore.dll",
+        "vite.aspnetcore.2.1.2.nupkg.sha512",
+        "vite.aspnetcore.nuspec",
+        "vite.png"
+      ]
+    },
+    "Vite.AspNetCore.Abstractions/1.4.0": {
+      "sha512": "9JgkfkIdZVrewKwrkO+pvIQq6CWNv5wdhPLAdbJ3WqkFVmsqhYihFmvNjb5DInLPg6ag7uU6FHIvYopwl87IkA==",
+      "type": "package",
+      "path": "vite.aspnetcore.abstractions/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net6.0/Vite.AspNetCore.Abstractions.dll",
+        "vite.aspnetcore.abstractions.1.4.0.nupkg.sha512",
+        "vite.aspnetcore.abstractions.nuspec",
+        "vite.png"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -11530,7 +11583,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.13",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.13",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.13",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.10"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.10",
+      "Vite.AspNetCore >= 2.1.2"
     ]
   },
   "packageFolders": {
@@ -11606,6 +11660,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[7.0.10, )"
+          },
+          "Vite.AspNetCore": {
+            "target": "Package",
+            "version": "[2.1.2, )"
           }
         },
         "imports": [

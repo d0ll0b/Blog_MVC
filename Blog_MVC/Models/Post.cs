@@ -1,12 +1,15 @@
 ﻿using System;
 namespace Blog_MVC.Models
 {
-	public class Blog
-	{
+	public class Post
+    {
         public int Id { get; set; }
-        public string? Title { get; set; }
-        public string? Content { get; set; }
-        public DateTime PostDate { get; set; } = DateTime.Now;
+        public string Title { get; set; }
+        public string Content { get; set; }
+        public DateTime PublishedAt { get; set; }
+        public string Author { get; set; }
+        public ICollection<Comment> Comments { get; set; }
+        public ICollection<Category> Categories { get; set; }
     }
 }
 
